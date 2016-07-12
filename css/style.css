@@ -17,4 +17,70 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1  {
+  font-family: 'Baskerville', serif;;
+  color: rgb(150, 170, 170);
+  font-size: 4em;
+  margin:0;
+}
+
+h2 {
+  color: rgb(100, 125, 125);
+}
+
+p {
+  color: rgb(100, 125, 125);
+}
+
+[class*="footer"] {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 5px;
+
+}
+
+[class*="first"] {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0px;
+
+}
+
+#main-image {
+  border-style: solid;
+  border-color: rgb(150, 170, 170);
+  border-width: 5px;
+}
+
+hr {
+  color: rgb(150, 170, 170);
+  height: 1px;
+  background-color: rgb(150, 170, 170);
+  border: none;
+}
+
+.fooimg {
+  border-style: solid;
+  border-color: rgb(205, 205, 205);
+  border-width: 5px;
+}
+
+#copy {
+  line-height: 3em;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 135, 180);
+}
+
+img:hover {
+    transition: border-color 0.5s ease;
+    border-color: rgb(113, 127, 123);
+}
 /* Write all remaining styles here */
